@@ -1,0 +1,8 @@
+== Main Chapter 1 (Include JPG)
+
+image::diagrams/jpg/example-image.jpg[Main Chapter 1, width=100%]
+
+== Main Chapter 2 (Include SVG)
+
+image::diagrams/svg/example-svg.svg[Main Chapter 2, width=100%]
+

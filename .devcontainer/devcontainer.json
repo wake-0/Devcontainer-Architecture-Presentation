@@ -1,0 +1,44 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+{
+	"name": "Devcontainer Architecture Presentation",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	// "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+	"build": { "dockerfile": "Dockerfile" },
+	"features": {},
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"jebbs.plantuml",
+				"asciidoctor.asciidoctor-vscode",
+				"yzhang.markdown-all-in-one",
+				"ms-azuretools.vscode-docker",
+				"contextmapper.context-mapper-vscode-extension"
+			],
+			"settings": {
+				"workbench.colorTheme": "GitHub Dark Default",
+				"asciidoc.extensions.enableKroki": true,
+				"plantuml.exportFormat": "svg", // Default export format
+				"plantuml.exportOutDir": "out", // Default export folder
+				"plantuml.diagramsRoot": "diagrams",
+				"plantuml.render": "Local",
+				"plantuml.jar": "/usr/local/bin/plantuml.jar"
+			}
+		}
+	}
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}

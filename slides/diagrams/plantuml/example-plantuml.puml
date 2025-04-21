@@ -1,0 +1,4 @@
+@startuml
+Controller --> Service
+Service --> Repository
+@enduml

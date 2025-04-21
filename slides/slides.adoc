@@ -1,0 +1,13 @@
+== Presentation
+Author 20XX-XX-XX
+
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@4.5.0
+:revealjs_theme: black
+:revealjs_slideNumber: true
+:revealjs_transition: slide
+
+:leveloffset: 0
+include::00-agenda.adoc[]
+:leveloffset: 0
+include::01-intro.adoc[]
+
