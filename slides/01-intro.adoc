@@ -1,4 +1,6 @@
-== Main Chapter
+== Main Chapter with Sub Chapters
+
+TODO
 
 === Sub Chapter
 
@@ -18,9 +20,9 @@ ____
 [start=3]
 . Third
 . Fourth
-- etc. 
+. etc. 
 
-== Sub Chapter (Render plantUML)
+=== Sub Chapter (Render plantUML)
 [plantuml, Render PlantUML, svg, width=100%]
 ....
 @startuml

@@ -1,7 +1,9 @@
 == Presentation
+// TODO: Set author and dates
 Author 20XX-XX-XX
 
 :revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@4.5.0
+// TODO: Set themes
 :revealjs_theme: black
 :revealjs_slideNumber: true
 :revealjs_transition: slide
@@ -10,4 +12,5 @@ Author 20XX-XX-XX
 include::00-agenda.adoc[]
 :leveloffset: 0
 include::01-intro.adoc[]
+// TODO: Here you can include additional chapters
 
